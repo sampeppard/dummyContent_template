@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-A-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maxium-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <title>Dummy Content Template</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img class="ti-logo" src="img/svg/logo.svg" alt="logo">
+            </div>
+            <h1>Test Page</h1>
+        </header>
+        <div class="main">
+        </div>
+        <footer>
+            <span>&nbsp;&nbsp;Developed and Designed by Sam Peppard</span>
+        </footer>
+        <script>
+            $(document).ready(function() {
+                var rand = Math.floor(Math.random() * 15) + 5;
+                console.log(rand);
+                for (i = 0; i < rand; i++) {
+                    $(".main").append('<div class="item"> \
+                                        <div class="content-wrapper"> \
+                                            <div class="avatar"></div> \
+                                            <div class="text-wrapper"> \
+                                                <div class="text-block"></div> \
+                                                <div class="text-block"></div> \
+                                                <div class="text-block"></div> \
+                                                <div class="text-block"></div> \
+                                                <div class="text-block"></div> \
+                                            </div> \
+                                            <div class="button"></div> \
+                                        </div> \
+                                      </div>')
+                }
+                $(".text-wrapper div").each(function() {
+                    var rand = Math.floor(Math.random() * 9) + 2;
+                    $(this).css("width", rand + "0%");
+                });
+            }); // end ready
+        </script>
+    </body>
+</html>
+		
