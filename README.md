@@ -44,6 +44,11 @@ For comments or questions, please email sampeppard@gmail.com
 * jQuery
 
 ----
+### Link to project on Github Pages
+
+https://sampeppard.github.io/dummy_content_generator/
+
+----
 ### **License**
 
 MIT
