@@ -1,4 +1,4 @@
-# **Nom Tracker**
+# **Dummy Content Generator**
 
 ##### A project built with HTML5, CSS3, JavaScript and jQuery. 3.6.2016
 #
